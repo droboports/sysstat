@@ -1,4 +1,3 @@
-CPPFLAGS="${CPPFLAGS:-} -I${PWD}/src/include"
 CFLAGS="${CFLAGS:-} -ffunction-sections -fdata-sections"
 LDFLAGS="-L${DEST}/lib -L${DEPS}/lib -Wl,--gc-sections"
 
